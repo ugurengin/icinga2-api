@@ -27,12 +27,13 @@ vars.os = "Linux" <br>
 vars.product = "hede" <br>
 } <br>
 </code> <br>
+
 To get it if really host is added as properly after curl execution, run command below or look at the icinga2 UI.</p>
 
 <pre><code>icinga2 repository host list|grep ugur
 Host 'ugurengin.com'
 </code></pre>
 
-<p>Special note that if you correlate all base services with â€œvars.os=Linuxâ€ tag, so related services will be integrated with added host.</p>
+<p>Special note that if you correlate all base services with "vars.os=Linux" tag, so related services will be integrated with added host.</p>
 
-<p><strong>TeÅŸekkÃ¼rler, Thanks, Spasiba, Dekuji</strong></p>
+<p><strong>Tesekkurler, Thanks, Spasiba, Dekuji</strong></p>
