@@ -6,6 +6,7 @@
 Access to icinga2 server, then execute following commands</p>
 
 <pre><code>mkdir /var/www/html/
+cd /var/www/html/
 git clone https://github.com/ugurengin/icinga2-api.git
 mv icinga2-api api
 </code></pre>
