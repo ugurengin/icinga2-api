@@ -11,6 +11,17 @@ git clone https://github.com/ugurengin/icinga2-api.git
 mv icinga2-api api
 </code></pre>
 
+After this create a generic host template as specify before sending http request to create host object.
+
+<pre><code>template Host "generic-api-host" {
+   max_check_attempts = 3
+   check_interval = 1m
+   retry_interval = 30s
+
+   enable_perfdata = true
+}
+</code></pre>
+
 <p>In simply to add a new host object using http request on any remote machine, you can either use curl or base UI php page.</p>
 
 <p>With Curl:</p>
